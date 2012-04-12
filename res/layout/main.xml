@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center_vertical|center_horizontal">
+<!-- http://stackoverflow.com/questions/432037/how-do-i-center-text-horizontally-and-vertical-in-a-textview-in-android -->
+    
+
+    <TextView
+        android:id="@+id/tv_count_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/b_change_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_count_display"
+        android:layout_below="@+id/tv_count_display"
+        android:text="Button" />
+
+</RelativeLayout>
