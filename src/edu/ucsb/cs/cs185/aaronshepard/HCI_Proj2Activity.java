@@ -14,9 +14,9 @@ public class HCI_Proj2Activity extends Activity {
 	private TextView tv_count_display;
 	private Button b_change_count;
 	
-	private static final String m_button_text = "Click me!";
+	private static final String m_button_text = "Click me !";
 	private static final String m_output_1 = "You clicked ";
-	private static final String m_output_2 = " times";
+	private static final String m_output_2 = " times.";
 	private int m_counter;
 	
     /** Called when the activity is first created. */
